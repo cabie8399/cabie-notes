@@ -1,0 +1,19 @@
+.env
+
+# code editor
+.vscode
+.idea
+
+node_modules
+
+# gen
+dist
+gen
+*.log
+logs
+
+dist_electron
+package-lock.json
+build
+serviceAccountKey.json
+installer.exe

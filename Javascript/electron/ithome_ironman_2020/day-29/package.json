@@ -1,0 +1,19 @@
+{
+  "name": "electron-practice-day29",
+  "version": "0.0.29",
+  "description": "a startup template of electron",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "node build.js"
+  },
+  "author": "andrew",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "10.1.3",
+    "electron-builder": "22.8.0"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5"
+  }
+}

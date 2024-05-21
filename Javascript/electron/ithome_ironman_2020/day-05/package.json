@@ -1,0 +1,14 @@
+{
+  "name": "electron-practice-day05",
+  "version": "0.0.5",
+  "description": "day05 apps",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "andrew",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "10.1.3"
+  }
+}

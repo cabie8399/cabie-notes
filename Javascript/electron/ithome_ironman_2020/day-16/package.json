@@ -1,0 +1,14 @@
+{
+  "name": "electron-practice-day16",
+  "version": "0.0.16",
+  "description": "day16 apps",
+  "main": "./main.js",
+  "scripts": {
+    "start": "chcp 65001 && electron ."
+  },
+  "author": "andrew",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "10.1.3"
+  }
+}
