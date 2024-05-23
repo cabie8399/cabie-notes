@@ -6,7 +6,7 @@ const path = require('path');
 module.exports = {
   target: 'web',
   // 入口
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   // 模式 development
   mode: 'development',
   // 出口
