@@ -1,0 +1,15 @@
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\bin\Debug\net8.0\Basic.exe
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\bin\Debug\net8.0\Basic.deps.json
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\bin\Debug\net8.0\Basic.runtimeconfig.json
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\bin\Debug\net8.0\Basic.dll
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\bin\Debug\net8.0\Basic.pdb
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.GeneratedMSBuildEditorConfig.editorconfig
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.AssemblyInfoInputs.cache
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.AssemblyInfo.cs
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.csproj.CoreCompileInputs.cache
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.sourcelink.json
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.dll
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\refint\Basic.dll
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.pdb
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\Basic.genruntimeconfig.cache
+D:\0004_project\Github\cabie-notes\C#\3小時初學者教學-C#\Basic\obj\Debug\net8.0\ref\Basic.dll
