@@ -24,7 +24,7 @@ namespace EBook
             set 
             { 
                 _LoginM.Acc = value;
-                RaisePropertyChanged("Acc");
+                RaisePropertyChanged(nameof(Acc));
             }
         }
 
@@ -34,7 +34,7 @@ namespace EBook
             set
             {
                 _LoginM.Pwd = value;
-                RaisePropertyChanged("Pwd");
+                RaisePropertyChanged(nameof(Pwd));
             }
         }
     }
