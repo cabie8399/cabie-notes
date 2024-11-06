@@ -1,0 +1,17 @@
+﻿<Window x:Class="EBook.BookList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EBook"
+        mc:Ignorable="d"
+        Title="我的書櫃" Height="450" Width="800">
+    <Grid>
+        <ListView>
+            <ListViewItem>Python高效率</ListViewItem>
+            <ListViewItem>物件導向分析與設計</ListViewItem>
+            <ListViewItem>演算法</ListViewItem>
+            <ListViewItem>資料結構</ListViewItem>
+        </ListView>
+    </Grid>
+</Window>

@@ -1,0 +1,50 @@
+﻿<Window x:Class="EBook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EBook"
+        mc:Ignorable="d"
+        Title="EBook" Height="450" Width="800">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Text="EBook 電子圖書館" FontSize="36" Margin="0 20 0 20"/>
+        <StackPanel Grid.Row="1" Grid.Column="0" Background="AliceBlue">
+            <TextBlock Text="登入" HorizontalAlignment="Center" FontSize="28" Margin="0 20 0 20"/>
+        </StackPanel>
+
+        <Grid Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="200"/>
+
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="帳號" FontSize="20" Margin="20 5 20 0"/>
+            <TextBox Text="{Binding LoginM.Acc}" Grid.Row="0" Grid.Column="1" Margin="0 5 0 5" FontSize="20"/>
+            
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="密碼" FontSize="20" Margin="20 5 20 0"/>
+            <TextBox Text="{Binding LoginM.Pwd}" Grid.Row="1" Grid.Column="1" Margin="0 5 0 5" FontSize="20"/>
+            
+            <TextBlock Grid.Row="2" Grid.Column="0" FontSize="12" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0 15 0 0">
+                <Hyperlink NavigateUri="https://www.google.com/" Click="Hyperlink_Click">忘記密碼</Hyperlink>
+            </TextBlock>
+            <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content="登入系統" Background="#FFC2D9FF" Click="Button_Click"/>
+        </Grid>
+        
+    </Grid>
+</Window>
