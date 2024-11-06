@@ -19,6 +19,8 @@ namespace EBook
         public MainWindow()
         {
             InitializeComponent();
+
+            // 這樣寫後，View這層就可以去存取ViewModel那層的屬性
             loginViewModel = new LoginViewModel();
             this.DataContext = loginViewModel;
         }

@@ -16,6 +16,8 @@ namespace EBook
             if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        // 因為同一個namespace所以可以直接用LoginModel
+        // 下面Acc跟Pwd實際用的值都是來自Model那層(LoginModel)
         private LoginModel _LoginM = new LoginModel();
 
         public string Acc
