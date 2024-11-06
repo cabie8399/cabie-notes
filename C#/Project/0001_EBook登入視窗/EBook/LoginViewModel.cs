@@ -16,18 +16,25 @@ namespace EBook
             if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        private LoginModel _LoginM;
-        public LoginModel LoginM
+        private LoginModel _LoginM = new LoginModel();
+
+        public string Acc
         {
-            get 
-            {
-                if (_LoginM == null)
-                    _LoginM = new LoginModel();
-                return _LoginM; }
+            get { return _LoginM.Acc; }
+            set 
+            { 
+                _LoginM.Acc = value;
+                RaisePropertyChanged("Acc");
+            }
+        }
+
+        public string Pwd
+        {
+            get { return _LoginM.Pwd; }
             set
             {
-                _LoginM = value;
-                RaisePropertyChanged("LoginM");
+                _LoginM.Pwd = value;
+                RaisePropertyChanged("Pwd");
             }
         }
     }

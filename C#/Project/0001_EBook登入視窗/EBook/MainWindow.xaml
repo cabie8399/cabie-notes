@@ -35,10 +35,10 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.Row="0" Grid.Column="0" Text="帳號" FontSize="20" Margin="20 5 20 0"/>
-            <TextBox Text="{Binding LoginM.Acc}" Grid.Row="0" Grid.Column="1" Margin="0 5 0 5" FontSize="20"/>
+            <TextBox Text="{Binding Acc}" Grid.Row="0" Grid.Column="1" Margin="0 5 0 5" FontSize="20"/>
             
             <TextBlock Grid.Row="1" Grid.Column="0" Text="密碼" FontSize="20" Margin="20 5 20 0"/>
-            <TextBox Text="{Binding LoginM.Pwd}" Grid.Row="1" Grid.Column="1" Margin="0 5 0 5" FontSize="20"/>
+            <TextBox Text="{Binding Pwd}" Grid.Row="1" Grid.Column="1" Margin="0 5 0 5" FontSize="20"/>
             
             <TextBlock Grid.Row="2" Grid.Column="0" FontSize="12" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0 15 0 0">
                 <Hyperlink NavigateUri="https://www.google.com/" Click="Hyperlink_Click">忘記密碼</Hyperlink>

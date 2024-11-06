@@ -18,20 +18,12 @@ namespace EBook
     /// </summary>
     public partial class MainWindow : Window
     {   
-        //LoginModel loginModel;
         LoginViewModel loginViewModel;  
         public MainWindow()
         {
             InitializeComponent();
             loginViewModel = new LoginViewModel();
             this.DataContext = loginViewModel;
-
-            //loginModel = new LoginModel();
-            //loginModel.Acc = "test";
-            //loginModel.Pwd = "test";
-            //this.DataContext = loginModel;
-
-            //this.DataContext = this;
         }
 
         // 忘記密碼 超連結
@@ -42,11 +34,7 @@ namespace EBook
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //string account = txtAccount.Text;
-            //string psd = txtPsd.Text;
-            //string psd = txtPsd.Text;
-
-            if (loginViewModel.LoginM.Acc == "test" && loginViewModel.LoginM.Pwd == "test")
+            if (loginViewModel.Acc == "test" && loginViewModel.Pwd == "test")
             {
                 //MessageBox.Show("OK");
                 BookList bookList = new BookList();
@@ -56,24 +44,9 @@ namespace EBook
             else
             {
                 MessageBox.Show("Error");
-                //txtAccount.Text = "";
-                //txtPsd.Text = "";
-
-                loginViewModel.LoginM.Acc = "";
-                loginViewModel.LoginM.Pwd = "";
-                loginViewModel.LoginM = loginViewModel.LoginM;
+                loginViewModel.Acc = "";
+                loginViewModel.Pwd = "";
             }
         }
     }
-
-    //public class LoginModel: INotifyPropertyChanged
-    //{
-    //    // 28L~33L : 寫法固定的
-    //    public event PropertyChangedEventHandler PropertyChanged;
-    //    private void RaisePropertyChanged(string propertyName)
-    //    {
-    //        PropertyChangedEventHandler handler = PropertyChanged;
-    //        if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
-    //    }
-    //}
 }
