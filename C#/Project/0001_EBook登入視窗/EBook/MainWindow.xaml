@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:EBook"
+        xmlns:local="clr-namespace:EBook" d:DataContext="{d:DesignInstance Type=local:LoginViewModel}"
         mc:Ignorable="d"
         Title="EBook" Height="450" Width="800">
     <Grid ShowGridLines="True">
@@ -43,7 +43,7 @@
             <TextBlock Grid.Row="2" Grid.Column="0" FontSize="12" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0 15 0 0">
                 <Hyperlink NavigateUri="https://www.google.com/" Click="Hyperlink_Click">忘記密碼</Hyperlink>
             </TextBlock>
-            <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content="登入系統" Background="#FFC2D9FF" Click="Button_Click"/>
+            <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content="登入系統" Command="{Binding LoginAction}" Background="#FFC2D9FF"/>
         </Grid>
         
     </Grid>
